@@ -109,7 +109,7 @@ export const ProductItem = ({
   );
 };
 
-//@ts-expect-error - warning
+
 export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
